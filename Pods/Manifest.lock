@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (5.4.1)
+  - BytepaceSwiftUtils (0.1.4):
+    - PinLayout
+    - RxCocoa
+    - RxSwift
+  - Differentiator (4.0.1)
+  - Hero (1.6.1)
+  - Kingfisher (6.3.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - PinLayout (1.9.3)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+
+DEPENDENCIES:
+  - BytepaceSwiftUtils
+  - Hero
+  - Kingfisher
+  - Moya/RxSwift
+  - PinLayout
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+
+SPEC REPOS:
+  "git@gitlab.com:bytepace/BytepaceSwiftUtilsSpecs.git":
+    - BytepaceSwiftUtils
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Hero
+    - Kingfisher
+    - Moya
+    - PinLayout
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  BytepaceSwiftUtils: 64d4d9ad317f7d21a08bfb5b48f3abc343903f0b
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PinLayout: 4d8733121f8687edcc8f00c19bf1379d12808767
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+
+PODFILE CHECKSUM: 2a2499cc57d1ee2feee0858fff8c11363de5f0ce
+
+COCOAPODS: 1.10.0
