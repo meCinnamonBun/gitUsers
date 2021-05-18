@@ -41,7 +41,6 @@ extension MainScreenPresenter: MainScreenPresenterProtocol {
     func bindInput(_ input: MainScreenPresenter.Input) {
         input.cellTap
             .bind { [unowned self] user in
-                print(user)
                 guard let route = router as? UserDetailScreenRoute else {
                     return
                 }
